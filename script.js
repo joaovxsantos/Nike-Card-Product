@@ -11,3 +11,10 @@ colorButtons.forEach((button, indx) => {
         images[indx].classList.add('active')
     })
 })
+
+sizeButtons.forEach((sizeButton) => {
+    sizeButton.addEventListener('click', () => {
+        sizeButtons.forEach((img) => img.classList.remove('active'))
+        sizeButton.classList.add('active');
+    })
+})
