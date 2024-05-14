@@ -208,9 +208,8 @@ body.change .card .bottom-card .price {
   }
 
   .card .top-card .images .img1.active {
-    transform: rotateZ(18deg);
-    top: -35px;
-    left: 75px;
+    top: -20px;
+    left: 95px;
   }
 
   .card .top-card .images .img2.active {
