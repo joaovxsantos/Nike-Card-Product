@@ -188,16 +188,35 @@ body.change .card .bottom-card .price {
 
 @media screen and (max-width: 576px) {
   .card .top-card .images .img1.active {
-    left: 60px;
+    top: -10px;
+    left: 90px;
   }
 
   .card .top-card .images .img2.active {
     transform: rotateZ(-45deg);
-    right: -40px;
+    top: -65px;
+    right: -60px;
   }
 
   .card .bottom-card .price {
     right: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .card .top-card .images img {
+    width: 270px;
+  }
+
+  .card .top-card .images .img1.active {
+    transform: rotateZ(18deg);
+    top: -35px;
+    left: 75px;
+  }
+
+  .card .top-card .images .img2.active {
+    transform: rotateZ(-35deg);
+    top: -95px;
+    right: -30px;
   }
 }
 
