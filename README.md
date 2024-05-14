@@ -12,6 +12,8 @@ Em relação ao projeto original, fiz as seguintes alterações:
 * HTML5
 * CSS3
 * JavaScript ES6
+## Acessando o Projeto
+Caso queria acessar diretamente o Projeto [clique aqui](https://nike-card-product.netlify.app/).
 ## Rodando os arquivos do Projeto
 Você pode baixar este repositório clicando em Code e fazendo o Download Zip  
 ![image](https://github.com/joaovxsantos/Nike-Card-Product/assets/97799540/af29bba1-8c11-4978-b521-9c01c4ef334f)  
