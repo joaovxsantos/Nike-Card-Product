@@ -46,40 +46,50 @@ body.change .card .bottom-card .price {
 
 /* Top Card Style*/
 .card .top-card {
-    color: var(--white);
-  }
-  .card .top-card img {
-    width: 80px;
-    margin: 0px 0px 20px;
-  }
-  .card .top-card h1 {
-    font-size: 20px;
-    margin: 0 0 10px;
-  }
-  
-  .card .top-card p {
-    font-size: 10px;
-  }
-  
-  .card .top-card .images img {
-    position: absolute;
-    width: 300px;
-    transition: all 1s ease;
-  }
-  
-  .card .top-card .images .img1 {
-    top: -20px;
-    left: -100vw;
-  }
-  .card .top-card .images .img1.active {
-    left: 100px;
-  }
-  
-  .card .top-card .images .img2 {
-    right: -100vw;
-    top: -70px;
-  }
-  .card .top-card .images .img2.active {
-    transform: rotateZ(-45deg);
-    right: -60px;
-  }
+  color: var(--white);
+}
+.card .top-card img {
+  width: 80px;
+  margin: 0px 0px 20px;
+}
+.card .top-card h1 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.card .top-card p {
+  font-size: 10px;
+}
+
+.card .top-card .images img {
+  position: absolute;
+  width: 300px;
+  transition: all 1s ease;
+}
+
+.card .top-card .images .img1 {
+  top: -20px;
+  left: -100vw;
+}
+.card .top-card .images .img1.active {
+  left: 100px;
+}
+
+.card .top-card .images .img2 {
+  right: -100vw;
+  top: -70px;
+}
+.card .top-card .images .img2.active {
+  transform: rotateZ(-45deg);
+  right: -60px;
+}
+
+
+
+/* Top Card e Bottom Card Style */
+.card .top-card,
+.card .bottom-card {
+  position: relative;
+  padding: 30px 25px;
+  height: 50%;
+}
