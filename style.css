@@ -183,3 +183,48 @@ body.change .card .bottom-card .price {
   cursor: pointer;
   transition: all 500ms ease;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 576px) {
+  .card .top-card .images .img1.active {
+    left: 60px;
+  }
+
+  .card .top-card .images .img2.active {
+    transform: rotateZ(-45deg);
+    right: -40px;
+  }
+
+  .card .bottom-card .price {
+    right: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    padding: 15px 0;
+  }
+
+  .card {
+    max-height: none;
+    height: 600px;
+  }
+
+  .card .top-card .images img {
+    position: absolute;
+    width: 200px;
+    transition: all 1s ease;
+  }
+
+  .card .top-card .images .img1.active {
+    left: 130px;
+    top: 0px;
+  }
+
+  .card .top-card .images .img2.active {
+    transform: rotateZ(-45deg);
+    top: -45px;
+    right: -20px;
+  }
+}
