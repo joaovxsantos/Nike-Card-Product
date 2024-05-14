@@ -43,3 +43,43 @@ body.change .card .bottom-card .price {
   background: linear-gradient(to bottom, var(--bg-top) 50%, var(--white) 50%);
   border-radius: 20px;
 }
+
+/* Top Card Style*/
+.card .top-card {
+    color: var(--white);
+  }
+  .card .top-card img {
+    width: 80px;
+    margin: 0px 0px 20px;
+  }
+  .card .top-card h1 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  
+  .card .top-card p {
+    font-size: 10px;
+  }
+  
+  .card .top-card .images img {
+    position: absolute;
+    width: 300px;
+    transition: all 1s ease;
+  }
+  
+  .card .top-card .images .img1 {
+    top: -20px;
+    left: -100vw;
+  }
+  .card .top-card .images .img1.active {
+    left: 100px;
+  }
+  
+  .card .top-card .images .img2 {
+    right: -100vw;
+    top: -70px;
+  }
+  .card .top-card .images .img2.active {
+    transform: rotateZ(-45deg);
+    right: -60px;
+  }
