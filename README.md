@@ -32,6 +32,16 @@ Ao baixar o Arquivo, você irá se deparar com os seguintes arquivos:
 
 ## Resultado do Projeto
 
+* DeskTop
+  
+  
+
+https://github.com/joaovxsantos/Nike-Card-Product/assets/97799540/1db6fc8c-1d4e-4e53-abe7-a2d879c04bc0  
+
+* Mobile    
+  ![mobile](https://github.com/joaovxsantos/Nike-Card-Product/assets/97799540/6f5942f0-1852-4efe-8613-ec22e48c4980)
+
+
 
 
 
