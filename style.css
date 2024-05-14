@@ -16,3 +16,21 @@
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
 }
+
+/* Body Style */
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-body);
+  overflow-x: hidden;
+}
+
+body.change .card {
+  background: linear-gradient(to bottom, var(--red) 50%, var(--white) 50%);
+}
+
+body.change .card .bottom-card .price {
+  background: var(--red) !important;
+}
