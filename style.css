@@ -34,3 +34,12 @@ body.change .card {
 body.change .card .bottom-card .price {
   background: var(--red) !important;
 }
+
+/* Card Style */
+.card {
+  max-width: 300px;
+  height: 580px;
+  max-height: 100vh;
+  background: linear-gradient(to bottom, var(--bg-top) 50%, var(--white) 50%);
+  border-radius: 20px;
+}
